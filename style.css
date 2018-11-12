@@ -1,0 +1,284 @@
+/*================Resets=============================*/
+
+html,body{
+    height: 100%;
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+
+
+/*img{*/
+    /*width: 100%;*/
+/*}*/
+
+/*================ Resets ends =====================*/
+
+/*======== Global Styles ======================*/
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+/*===================Header section begins===================*/
+header{
+    padding: 10px 20px;
+    background: #e6fcff;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 300;
+
+}
+
+.logo{
+    float: left;
+
+}
+
+.logo img{
+    width: 100px;
+}
+
+nav{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 20px;
+    font-weight: bold;
+    color: #2196F3;
+}
+/*=================Header section ends========================*/
+
+
+/*=================================================================================*/
+
+
+
+/*=================Welcome section begins=====================*/
+main{
+    height: 100%;
+    width: 100%;
+    color: #616161;
+}
+
+
+#welcome{
+    height: 100%;
+    width: 100%;
+    background: url("images/cover-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    text-align: center;
+    position: relative;
+
+}
+
+#welcome .overlay{
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+
+#welcome .wrapper{
+    position: relative;
+    top: 30%;
+    color: white;
+}
+
+#welcome .brand-name{
+    color: #2196F3;
+}
+
+
+#welcome h1{
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+#welcome p{
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#welcome .actions-buttons{
+    margin-top: 30px;
+}
+
+#welcome .actions-buttons button{
+    padding: 15px 50px;
+    font-size: 1.2em;
+    margin: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#welcome button.quote{
+  background: #2196F3;
+}
+
+#welcome button.contact{
+    background: #009688;
+}
+/*===============Welcome Ends========================*/
+
+
+/*=====================================================================*/
+
+
+
+
+/*===========About section begins =====================*/
+#about {
+    padding-top:50px ;
+    color: #616161;
+
+}
+#about .wrapper{
+    border:solid 1px #e5e5e5;
+    overflow: hidden;
+}
+#about .title{
+    padding: 50px 0;
+}
+
+#about .points{
+    list-style-position: outside;
+    margin-left:15px;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+#about p{
+    font-size: 1.1em;
+}
+
+#about .points li{
+    text-transform: capitalize;
+}
+
+
+#about .title  h1{
+    font-size: 2em;
+}
+
+#about .box{
+    float: left;
+}
+
+#about .left{
+    width: 60%;
+    padding: 30px;
+}
+
+#about .right{
+    width: 30%;
+}
+
+/*============================================================*/
+
+
+
+/*==================Services Section begins ===================*/
+#services{
+    margin-top: 30px;
+}
+
+#services .title h1{
+    text-align: center;
+    font-size:2.5em;
+}
+
+#services img{
+    width: 100%;
+}
+
+#services .box{
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    border:solid 1px #e5e5e5;
+    min-height: 450px;
+
+}
+
+#services .row{
+    overflow: hidden;
+}
+
+/*==================== =============================*/
+
+
+/*========================Portfolio Section =====================*/
+#portfolio{
+    /*background: #e5e5e5;*/
+}
+
+#portfolio .title{
+    text-align: center;
+    padding: 50px 0;
+}
+
+#portfolio .title h1{
+    font-size: 2.4em;
+}
+
+
+#portfolio img{
+    width: 100%;
+    height: 100%;
+
+}
+
+#portfolio .row{
+    overflow: hidden;
+}
+
+
+
+#portfolio .work {
+    width: 33.33%;
+    float: left;
+
+    height: 300px;
+    overflow: hidden;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+
+
+
